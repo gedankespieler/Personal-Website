@@ -1,0 +1,44 @@
+/* CSS Document */
+.navbar{
+	background:#4576C1;
+}
+
+
+.navbar-brand, .nav-link{
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.nav-link{
+	margin-right: 1em !important;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+	color:#FF9918;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.navbar-toggler{
+	background-image: radial-gradient(#ffffff, #4576C1);
+	border-radius: 1rem;
+}
+
+.header{
+	background-image: url("/header-image.JPG") no-repeat fixed;
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: center;
+}
+
+
+/*.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+} */
